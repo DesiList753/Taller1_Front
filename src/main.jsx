@@ -3,14 +3,14 @@ import { createRoot } from 'react-dom/client'
 import './index.scss'
 import App from './App.jsx'
 import { PrimeReactProvider } from 'primereact/api'
-import PedidosProvider from './providers/PedidosProvider.jsx'
+import { LecturasProvider } from './providers/LecturasProvider.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <PrimeReactProvider>
-      <PedidosProvider>
+      <LecturasProvider>
         <App />
-      </PedidosProvider>
+      </LecturasProvider>
     </PrimeReactProvider>
   </StrictMode>,
 )
