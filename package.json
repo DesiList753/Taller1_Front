@@ -1,5 +1,5 @@
 {
-  "name": "taller1",
+  "name": "taller2",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -10,13 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "1.13.2",
     "bootstrap": "5.3.8",
-    "primeicons": "^7.0.0",
+    "primeflex": "4.0.0",
+    "primeicons": "7.0.0",
     "primereact": "10.9.7",
-    "quill": "^2.0.3",
+    "quill": "2.0.3",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "react-router-dom": "^7.9.6",
+    "react-router-dom": "7.9.6",
     "sass": "1.94.0",
     "uuid": "13.0.0",
     "vite-plugin-sass": "0.1.0"
