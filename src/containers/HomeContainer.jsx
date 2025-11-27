@@ -21,7 +21,7 @@ export function HomeContainer() {
               Descripción del Proyecto
             </h2>
             <p className="line-height-3">
-              Aplicación web que consume la API pública de Sample APIs para mostrar un catálogo 
+              Aplicación web que consume la API pública de Sample APIs para mostrar un catálogo
               de películas animadas. Permite visualizar ID, título, póster e identificador de IMDb de cada película.
             </p>
           </div>
@@ -39,6 +39,18 @@ export function HomeContainer() {
               <li><strong>React Router:</strong> Manejo de rutas y navegación</li>
               <li><strong>Axios:</strong> Cliente HTTP para consumir la API</li>
               <li><strong>Context API:</strong> Patrón Provider para manejo de estado global</li>
+            </ul>
+          </div>
+
+          <Divider />
+          <div>
+            <h2 className="text-secondary mb-3">
+              <i className="pi pi-cog mr-2"></i>
+              Integrantes del Equipo
+            </h2>
+            <ul className="line-height-3">
+              <li>Juan Pablo Gonzalez astudillo</li>
+              <li>Jeremy Antonio Santander</li>
             </ul>
           </div>
         </Card>
