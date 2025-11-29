@@ -1,16 +1,14 @@
 FROM node:20-alpine AS build
 
-# esto es para el pnpm
-RUN corepack enable
-
 WORKDIR /app
-COPY package.json pnpm-lock.yaml ./
 
-RUN pnpm install
+COPY package*.json ./
+
+RUN npm install
 
 COPY . .
 
-RUN pnpm build
+RUN npm run build
 
 FROM nginx:alpine
 
